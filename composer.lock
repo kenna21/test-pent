@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "edf908e1f6b0e4fca8854163be177e40",
+    "content-hash": "5f12d6810f23d727431183f61dfe4b10",
     "packages": [],
     "packages-dev": [
         {
@@ -1410,6 +1410,70 @@
             "time": "2023-02-03T07:06:18+00:00"
         },
         {
+            "name": "sebastian/phpcpd",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/phpcpd.git",
+                "reference": "7724245f9d3aeae612efdc66925cf0f3f70f9a61"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpcpd/zipball/7724245f9d3aeae612efdc66925cf0f3f70f9a61",
+                "reference": "7724245f9d3aeae612efdc66925cf0f3f70f9a61",
+                "shasum": ""
+            },
+            "require": {
+                "ext-dom": "*",
+                "ext-mbstring": "*",
+                "php": ">=8.1",
+                "phpunit/php-file-iterator": "^4.0",
+                "phpunit/php-timer": "^6.0",
+                "sebastian/cli-parser": "^2.0",
+                "sebastian/version": "^4.0"
+            },
+            "default-branch": true,
+            "bin": [
+                "phpcpd"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "7.0-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sebastian@phpunit.de",
+                    "role": "lead"
+                }
+            ],
+            "description": "Copy/Paste Detector (CPD) for PHP code.",
+            "homepage": "https://github.com/sebastianbergmann/phpcpd",
+            "support": {
+                "issues": "https://github.com/sebastianbergmann/phpcpd/issues",
+                "source": "https://github.com/sebastianbergmann/phpcpd/tree/main"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/sebastianbergmann",
+                    "type": "github"
+                }
+            ],
+            "abandoned": true,
+            "time": "2023-01-10T12:50:39+00:00"
+        },
+        {
             "name": "sebastian/recursion-context",
             "version": "5.0.0",
             "source": {
@@ -1634,7 +1698,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "sebastian/phpcpd": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
