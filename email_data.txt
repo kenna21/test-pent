@@ -1,0 +1,17 @@
+Sujet: [GitLab] Nouvelle modification sur test-pent (main)
+Contenu:
+Une nouvelle modification a été effectuée sur le dépôt GitLab.
+
+Détails :
+- Dépôt : test-pent
+- Branche : main
+- Auteur : localmachine
+- Date : Mon Dec 23 09:45:07 2024
+- Message : test
+- Hash du commit : af662d6580dd681af9dbef1a7e552bc34e329312
+
+Lien vers le commit :
+http://192.168.52.191//test-pent/commit/af662d6580dd681af9dbef1a7e552bc34e329312
+
+Pour voir les changements, visitez :
+http://192.168.52.191//test-pent/tree/main
